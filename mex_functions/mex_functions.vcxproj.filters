@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Loaders">
+      <UniqueIdentifier>{0f7ca465-f134-4ae9-ab38-e59e1b846171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hists">
+      <UniqueIdentifier>{c78dc538-1316-4eaf-b71d-d9322393ca01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Loaders\Population">
+      <UniqueIdentifier>{8ee7e234-f700-480c-af6c-a610eefcfdbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Loaders\Population\Crowd">
+      <UniqueIdentifier>{5bccffaa-e23b-42a0-97e8-936dfb66906f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Loaders\Path_Lengths">
+      <UniqueIdentifier>{e8d23ddd-8181-4475-8f3d-af62b842533e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Loaders\Modularity">
+      <UniqueIdentifier>{7794fc22-911f-45b4-95b2-9286724c544c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Loaders\Remaining_Lifetime">
+      <UniqueIdentifier>{4be89795-2be3-4cc3-a672-74b3ab429a04}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mex_histmat.cpp">
+      <Filter>Source Files\Hists</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_load_dists.cpp">
+      <Filter>Source Files\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_load_lifetimes.cpp">
+      <Filter>Source Files\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_histscaled.cpp">
+      <Filter>Source Files\Hists</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_histscalerprops.cpp">
+      <Filter>Source Files\Hists</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_load_crowdpop.cpp">
+      <Filter>Source Files\Loaders\Population\Crowd</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_load_crowdpop_change.cpp">
+      <Filter>Source Files\Loaders\Population\Crowd</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_load_meancrowdpop.cpp">
+      <Filter>Source Files\Loaders\Population\Crowd</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_load_ipop.cpp">
+      <Filter>Source Files\Loaders\Population\Crowd</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_load_pop_change.cpp">
+      <Filter>Source Files\Loaders\Population\Crowd</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_load_pop_rms.cpp">
+      <Filter>Source Files\Loaders\Population\Crowd</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_load_pop.cpp">
+      <Filter>Source Files\Loaders\Population</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_load_popwalk.cpp">
+      <Filter>Source Files\Loaders\Population</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_load_apl.cpp">
+      <Filter>Source Files\Loaders\Path_Lengths</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_load_apl_max.cpp">
+      <Filter>Source Files\Loaders\Path_Lengths</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_load_diameter.cpp">
+      <Filter>Source Files\Loaders\Path_Lengths</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_load_deltaapl.cpp">
+      <Filter>Source Files\Loaders\Path_Lengths</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_randLevySkew.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_load_meanmods.cpp">
+      <Filter>Source Files\Loaders\Modularity</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_load_mods.cpp">
+      <Filter>Source Files\Loaders\Modularity</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_load_maxcrowd.cpp">
+      <Filter>Source Files\Loaders\Population\Crowd</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_histmeans.cpp">
+      <Filter>Source Files\Hists</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_load_hurst.cpp">
+      <Filter>Source Files\Loaders\Population</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_load_hurst2.cpp">
+      <Filter>Source Files\Loaders\Population</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_load_pop_rlftm.cpp">
+      <Filter>Source Files\Loaders\Remaining_Lifetime</Filter>
+    </ClCompile>
+    <ClCompile Include="mex_load_ws_maxpop_maxlftm.cpp">
+      <Filter>Source Files\Loaders\Population</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
